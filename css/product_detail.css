@@ -1,0 +1,31 @@
+.product_detail{
+}
+
+.product_title {
+    opacity: 60%;
+}
+
+.product_price {
+    color: #00608d;
+    position:statics;
+}
+
+.color-list {
+    display:flex;
+    text-align: center;
+}
+
+.product_color{
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.icons i{
+    color: #40bea7;
+    margin-right: 5px;
+}
+
+#icon-detail{
+    margin-right: 10px;
+}
