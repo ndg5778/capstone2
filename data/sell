@@ -1,0 +1,91 @@
+	<div class=" layout_padding promoted_sectipon">
+		<div class="container product-container">
+			<h1 class="promoted_text product_kind">Chair</h1>
+            
+            <div class="dropdown-list">
+                <select>
+                    <option value="1">추천순</option>
+                    <option value="2">가격높은순</option>
+                    <option value="3">가격낮은순</option>
+                </select>
+            </div>
+			<!--제품 이미지들-->
+			<div class="images_main">
+				<div class="row product-row">
+					<div class="col-sm-6 col-md-6 col-lg-3 product">
+						<div class="product_images"><img src="images/chair/chair1.jpg" style="width: 100%;"></div>
+						<div class="icons">
+                            <i class="fa fa-eye"></i><span id="icon-detail">10</span>
+                            <i class="fa fa-heart"></i><span id="icon-detail">3</span>
+						</div>
+						<div class="product_detail">
+							<h3 class="product_title">제품명</h3>
+							<div class="color-list">
+							</div>
+							<h3 class="product_detail product_price">가격</h3>
+						</div>
+					</div>
+                    
+					<div class="col-sm-6 col-md-6 col-lg-3 product">
+						<div class="product_images"><img src="images/chair/chair1.jpg" style="width: 100%;"></div>
+						<div class="icons">
+                            <i class="fa fa-eye"></i><span id="icon-detail">10</span>
+                            <i class="fa fa-heart"></i><span id="icon-detail">3</span>
+						</div>
+						<div class="product_detail">
+							<h3 class="product_title">제품명</h3>
+							<div class="color-list">
+								<div class="product_color"></div>
+							</div>
+							<h3 class="product_detail product_price">가격</h3>
+						</div>
+					</div>
+                    
+					<div class="col-sm-6 col-md-6 col-lg-3 product">
+						<div class="product_images"><img src="images/chair/chair1.jpg" style="width: 100%;"></div>
+						<div class="icons">
+                            <i class="fa fa-eye"></i><span id="icon-detail">10</span>
+                            <i class="fa fa-heart"></i><span id="icon-detail">3</span>
+						</div>
+						<div class="product_detail">
+							<h3 class="product_title">제품명</h3>
+							<div class="color-list">
+								<div class="product_color"></div>
+							</div>
+							<h3 class="product_detail product_price">가격</h3>
+						</div>
+					</div>
+                    
+					<div class="col-sm-6 col-md-6 col-lg-3 product">
+						<div class="product_images"><img src="images/chair/chair1.jpg" style="width: 100%;"></div>
+						<div class="icons">
+                            <i class="fa fa-eye"></i><span id="icon-detail">10</span>
+                            <i class="fa fa-heart"></i><span id="icon-detail">3</span>
+						</div>
+						<div class="product_detail">
+							<h3 class="product_title">제품명</h3>
+							<div class="color-list">
+								<div class="product_color"></div>
+							</div>
+							<h3 class="product_detail product_price">가격</h3>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-6 col-lg-3 product">
+						<div class="product_images"><img src="images/chair/chair1.jpg" style="width: 100%;"></div>
+						<div class="icons">
+                            <i class="fa fa-eye"></i><span id="icon-detail">10</span>
+                            <i class="fa fa-heart"></i><span id="icon-detail">3</span>
+						</div>
+						<div class="product_detail">
+							<h3 class="product_title">제품명</h3>
+							<div class="color-list">
+								<div class="product_color"></div>
+							</div>
+							<h3 class="product_detail product_price">가격</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
