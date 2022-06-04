@@ -741,8 +741,12 @@ div.cont_mid_item_title{
 }
 div.cont_mid_item_title_input{
     flex: 5;
-    align-items: center;
+    line-height: center;
 }
+div.cont_mid_item_title_input label{
+    vertical-align: middle;
+}
+
 #cont_input_text{
     width: 90%;
     height: 100%;
@@ -781,4 +785,18 @@ div.cont_mid_item_title_input{
     padding: 0;
     overflow: hidden;
     border: 0;
+}
+.contact_bottom {
+    height: 50px;
+}
+.contact_bottom button{
+    height: 100%;
+    width: 45%;
+    border: none;
+}
+.contact_bottom #cancle{
+    background-color: #a0e2d6;
+}
+.contact_bottom #enter{
+    background-color: #40bea7;
 }
