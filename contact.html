@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
-
 <html lang="ko">
-
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +25,6 @@
     <!--  부트스트랩 js 사용 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.js"></script>
-
 </head>
 
 <body>
@@ -108,8 +104,8 @@
                             VR Service <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="">Introduce</a></li>
-                            <li><a href="">Contact us</a></li>
+                            <li><a href="introduce.html">Introduce</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,22 +113,55 @@
         </nav>
     </div>
 
-    <div class="introduce">
-        <div class="intro_top">
-            <div class="main_text">
-                <p>vr 인테리어 서비스</p>
-                <h1>플레이스 </h1>    
+    <div class="contact">
+        <div class="contact_top">
+            <div class="cont_main_text">
+                <h1>PLACE</h1> 
+                <p>VR(가상현실) 기술을 활용하여 실제 집과 비슷한 구조의 가상공간에 가구를 배치할 수 있는 플랫폼으로</p>
+                <p>비대면으로 공간 연출을 미리 체험하고 구매할 수 있는 인테리어 웹 서비스입니다</p>   
             </div>
         </div>
-        <div class="intro_middle">
-            <div class="intro_comparaion">
-                <div class="intro_comp_top">
-                    <h2>Why Place?</h2>
-                    <p>코로나19 영향으로 인테리어에 대한 주목이 증가하고 있다.</p>
-                    <p>대부분의 소비 패턴이 온라인으로 변경되는 추세임에도 불구하고, 인테리어는 아직도 많은 사람들이 매장 방문 구매를 고집하고 있다.</p>
-                    <p>방문판매의 장점에도 불구하고, 오프라인은 뚜렷한 한계가 있다.</p>
-                    <p>우리는 해당 단점들을 극복할 수 있는 온라인 플랫폼을 만드는 방법을 생각해보았다.</p>
+        <div class="contact_middle">
+            <div class="cont_middle_title">
+                <h2>제휴제안 등록</h2>
+                <hr>
+                <div class="cont_middle_item">
+                    <div class="cont_mid_item_title">
+                        <h3>제목</h3>
+                    </div>
+                    <div class="cont_mid_item_title_input">
+                        <input type="text" id="cont_input_text">
+                    </div>
                 </div>
+                <div class="cont_middle_item">
+                    <div class="cont_mid_item_title">
+                        <h3>제휴내용</h3>
+                    </div>
+                    <div class="cont_mid_item_title_input">
+                        <input type="text" id="cont_input_text">
+                    </div>
+                </div>
+                <div class="cont_middle_item">
+                    <div class="cont_mid_item_title">
+                        <h3>주요 판매 품목</h3>
+                    </div>
+                    <div class="cont_mid_item_title_input">
+                        <input type="text" id="cont_input_text">
+                    </div>
+                </div>
+                <div class="cont_middle_item">
+                    <div class="cont_mid_item_title">
+                        <h3>제안서 첨부</h3>
+                    </div>
+                    <div class="cont_mid_item_title_input">
+                        <div class="filebox">
+                            <input class="upload-name" value="첨부파일" placeholder="첨부파일">
+                            <label for="file">파일찾기</label> 
+                            <input type="file" id="file">
+                        </div>
+                    </div>
+                </div>
+            </div>
                 <div class="intro_comp_bottom">
                     <div class="intro_comp_bottom_1">
                         <img src="images/introduce/intro_vr.png" style="width: 30%;" alt="https://pixabay.com/illustrations/vr-virtual-reality-vr-goggles-6770800/">

@@ -696,3 +696,89 @@ div.intro_comp_bottom_2 p{
 div.intro_comp_bottom_2 img{
     flex: 1;
 }
+
+div.contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: 'MaruBuri';
+}
+div.contact_top{
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: -20px;
+    background-color: #c4eae1;
+}
+div.cont_main_text h1{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 70px;
+    font-family: 'MaruBuriSemiBold';
+}
+div.cont_main_text p{
+    font-size: 15px;
+}
+div.cont_middle_title{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-family: 'MaruBuriSemiBold';
+}
+div.cont_middle_title h3{
+    font-size: 17px;
+}
+div.cont_middle_item{
+    display: flex;
+    top: 23px;
+    left: 0;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+div.cont_mid_item_title{
+    flex: 1;
+}
+div.cont_mid_item_title_input{
+    flex: 5;
+    align-items: center;
+}
+#cont_input_text{
+    width: 90%;
+    height: 100%;
+    border: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 1px solid rgb(204, 204, 204);
+}
+#cont_input_file{
+    background-color: #3aa28f;
+}
+.filebox .upload-name {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    width: 78%;
+    color: #999999;
+}
+.filebox label {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 10px;
+}
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
