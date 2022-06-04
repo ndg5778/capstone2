@@ -1,18 +1,21 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
+const express = require('express');
+const exp = express();
+
+app.use(express.static(__dirname+'/css')); 
+
+
 
 const app = http.createServer(function(request,response){
     const _url = request.url;
     const queryData = url.parse(_url, true).query;
-    const title = queryData.id;
+    let title = queryData.id;
 
-    console.log(queryData);
-
-    console.log(queryData.id);
+    
 
     if(_url == '/'){
-      _url = '/main.html';
       title = 'main';
     }
 

@@ -27,5 +27,3 @@ function getSelectMenuName(){
         });
     })
 }
-
-export{color, getSelectMenuName, addColor, addProduct};
