@@ -3,6 +3,7 @@ const app = express();
 const fs = require('fs');
 const path = require('path');
 const template = require('./express/lib/template.js');
+
 app.use(express.static(__dirname + '/express/public'));
 
 
@@ -16,6 +17,7 @@ app.get('/', function(request, response){
 
 app.get('/page/:pageId', function(req, res){
   const fileredId = path.parse(req.params.pageId).base;
+
   fs.readFile(`./express/data/${fileredId}`, 'utf-8', function(err, description){
     const title = req.params.pageId;
     const html = template.HTML(title, description);

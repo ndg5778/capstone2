@@ -22,8 +22,8 @@ module.exports = {
               type="text/css">
       
           <!-- Theme Stylesheet -->
-          <link rel="stylesheet"  href="css/style.css">
-          <link rel="stylesheet" href="css/responsive.css">
+          <link rel="stylesheet"  href="/css/style.css">
+          <link rel="stylesheet" href="/css/responsive.css">
       
           <!--  부트스트랩 js 사용 -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,7 +38,7 @@ module.exports = {
                       <div class="col-md-3 col-sm-4">
                           <div class="logo">
                               <a href="/">
-                                  <img src="images/logo.png" alt="plAce">
+                                  <img src="/images/logo.png" alt="plAce">
                               </a>
                           </div>
                       </div>
@@ -106,7 +106,7 @@ module.exports = {
                               </button>
                               <ul class="dropdown-menu">
                                   <li><a href="/page/introduce">Introduce</a></li>
-                                  <li><a href="/page/introduce">Contact us</a></li>
+                                  <li><a href="/page/contact">Contact us</a></li>
                               </ul>
                           </div>
                       </div>
@@ -188,8 +188,8 @@ module.exports = {
       
           <!-- Script -->
       
-          <script src="js/script.js"></script>
-          <script src="js/product.js"></script>
+          <script src="/js/script.js"></script>
+          <script src="/js/product.js"></script>
       
       </body>
       
