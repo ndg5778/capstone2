@@ -22,7 +22,7 @@ module.exports = {
               type="text/css">
       
           <!-- Theme Stylesheet -->
-          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet"  href="css/style.css">
           <link rel="stylesheet" href="css/responsive.css">
       
           <!--  부트스트랩 js 사용 -->

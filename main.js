@@ -1,9 +1,9 @@
-const fs = require('fs');
-const url = require('url');
-var path = require('path');
 const express = require('express');
 const app = express();
+const fs = require('fs');
+const path = require('path');
 const template = require('./express/lib/template.js');
+app.use(express.static(__dirname + '/express/public'));
 
 
 app.get('/', function(request, response){
