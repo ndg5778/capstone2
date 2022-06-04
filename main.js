@@ -1,28 +1,29 @@
-const http = require('http');
 const fs = require('fs');
 const url = require('url');
-var template = require('./lib/template.js');
-
-const app = http.createServer(function(request,response){
-    const _url = request.url;
-    const queryData = url.parse(_url, true).query;
-    let title = queryData.id;
-
-    
-
-    if(_url == '/'){
-      title = 'main';
-    }
-
-    response.writeHead(200);
-
-    fs.readFile(`data/${title}`, 'utf-8', function(err, description){
-    const html = template.HTML(title, description)
+var path = require('path');
+const express = require('express');
+const app = express();
+const template = require('./express/lib/template.js');
 
 
-    response.end(html);
-    
-  })
- 
+app.get('/', function(request, response){
+  const title = 'main';
+  fs.readFile(`./express/data/${title}`, 'utf-8', function(err, description){
+  const html = template.HTML(title, description);
+  response.send(html);
+  });
 });
-app.listen(3000);
+
+app.get('/page/:pageId', function(req, res){
+  const fileredId = path.parse(req.params.pageId).base;
+  fs.readFile(`./express/data/${fileredId}`, 'utf-8', function(err, description){
+    const title = req.params.pageId;
+    const html = template.HTML(title, description);
+
+    res.send(html);
+  });
+});
+
+app.listen(3000, function() {
+  console.log('Example app listening on port 3000!')
+});

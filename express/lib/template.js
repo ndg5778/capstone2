@@ -77,8 +77,8 @@ module.exports = {
                                   Interior <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                  <li id="btn"><a href="/?id=sell">Wallpaper</a></li>
-                                  <li id="btn"><a href="/?id=sell">Veneer</a></li>
+                                  <li id="btn"><a href="/page/sell">Wallpaper</a></li>
+                                  <li id="btn"><a href="/page/sell">Veneer</a></li>
                               </ul>
                           </div>
                       </div>
@@ -90,10 +90,10 @@ module.exports = {
                                   Furniture <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                  <li id="btn"><a href="/?id=sell">Chair</a></li>
-                                  <li id="btn"><a href="/?id=sell">Desk</a></li>
-                                  <li id="btn"><a href="/?id=sell">Bed</a></li>
-                                  <li id="btn"><a href="/?id=sell">Light</a></li>
+                                  <li id="btn"><a href="/page/sell">Chair</a></li>
+                                  <li id="btn"><a href="/page/sell">Desk</a></li>
+                                  <li id="btn"><a href="/page/sell">Bed</a></li>
+                                  <li id="btn"><a href="/page/sell">Light</a></li>
                               </ul>
                           </div>
                       </div>
@@ -105,8 +105,8 @@ module.exports = {
                                   Place <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                  <li><a href="/?id=introduce">Introduce</a></li>
-                                  <li><a href="/?id=introduce">Contact us</a></li>
+                                  <li><a href="/page/introduce">Introduce</a></li>
+                                  <li><a href="/page/introduce">Contact us</a></li>
                               </ul>
                           </div>
                       </div>
