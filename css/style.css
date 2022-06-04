@@ -34,10 +34,7 @@ img {
     background-color: #191919;
     min-height: 58px;
 }
-.social,
-.action {
 
-}
 .social ul,
 .action ul {
     list-style: none;
@@ -358,9 +355,6 @@ ol.carousel-indicators li.active {
     color: #40bea7;
     background: #fff;
 }
-.blog {
-    
-}
 .blog-title {
     background: #40bea7;
     height: 45px;
@@ -386,9 +380,7 @@ ol.carousel-indicators li.active {
 .blog-title a:hover {
     color: #666;
 }
-.single-post {
-    
-}
+
 .post-thumbnail {
     position: relative;
 }
@@ -558,9 +550,7 @@ p.short-info {
     margin-bottom: 20px;
     border-bottom: 2px solid #bebebe;
 }
-.purchase-form input.qt {
-    
-}
+
 .qt-area {
     display: inline-block;
     border: 1px solid #d5d5d5;
