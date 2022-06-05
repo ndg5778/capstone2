@@ -1,9 +1,9 @@
-const express = require('express');
+const express = import('express');
 const app = express();
-const fs = require('fs');
-const path = require('path');
-const { Script } = require('vm');
-const template = require('./public/template.js');
+const fs = import('fs');
+const path = import('path');
+const { Script } = import('vm');
+const template = import('./public/template.js');
 
 app.use(express.static(__dirname + 'public'));
 
