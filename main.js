@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/express/public'));
 
 
 app.get('/', function(request, response){
-  const title = 'main';
+  const title = 'main.html';
   fs.readFile(`./express/data/${title}`, 'utf-8', function(err, description){
   const html = template.HTML(title, description);
   response.send(html);
