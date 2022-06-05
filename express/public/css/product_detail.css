@@ -1,7 +1,8 @@
 .product{
+    display: flex;
     border: 1px lightgrey solid;
     border-radius: 5px;
-    margin: 5px 0px 10px 0px;
+    margin: 15px 30px 15px 0px;
     padding: 0px 0px;
     height: 350px;
     width: 200px;
@@ -20,19 +21,28 @@
     color: #00608d;
 }
 
-.color-list {
-    display:flex;
-    text-align: center;
-}
-
 .product_color{
     height: 10px;
     width: 10px;
 }
 
-.product_images{
-    width: 100%;
+.product_images img{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 60%;
+}
+
+.icons {
+    position: absolute;
+    left: 0;
+    top: 65%;
+}
+
+.product_detail{
+    position:absolute;
+    top: 68%;
+    left: 0;
 }
 
 .icons i{
@@ -63,7 +73,6 @@
 }
 
 .product-row{
-    display: flex;
-    justify-content: space-between;
+    display: flexbox;
     margin:0;
 }
