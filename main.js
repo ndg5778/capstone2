@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
-const template = require('./template.js');
+const template = require('./express/public/template.js');
 
 app.use(express.static(__dirname + '/express/public'));
 
