@@ -1,7 +1,8 @@
-const express = require('express');
+<Script>const express = require('express');</Script>
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const { Script } = require('vm');
 const template = require('./public/template.js');
 
 app.use(express.static(__dirname + 'public'));
