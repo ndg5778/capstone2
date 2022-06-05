@@ -2,14 +2,14 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
-const template = require('./express/public/template.js');
+const template = require('./public/template.js');
 
-app.use(express.static(__dirname + '/express/public'));
+app.use(express.static(__dirname + 'public'));
 
 
 app.get('/', function(request, response){
   const title = 'main.html';
-  fs.readFile(`./express/public/${title}`, 'utf-8', function(err, description){
+  fs.readFile(`./${title}`, 'utf-8', function(err, description){
   const html = template.HTML(title, description);
   response.send(html);
   });
